@@ -28,6 +28,10 @@ public class FizzBuzzTeste {
 	
 	private List<Object> saidaMultiploOuTemNumero;
 
+	/**
+	 * Inicializa os dados de testes
+	 * 
+	 */
 	@Before
 	public void inicializa() {
 		this.multiplosDeTres = new ArrayList<Integer>();
